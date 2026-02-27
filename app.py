@@ -58,6 +58,15 @@ html, body, [class*="css"] {
 /* Hide default streamlit elements */
 #MainMenu, footer, header { visibility: hidden; }
 
+/* Fix sidebar toggle button - always visible */
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    color: white !important;
+    background: var(--surface2) !important;
+    border-radius: 0 8px 8px 0 !important;
+}
+
 /* Main heading */
 .hero-title {
     font-family: 'Syne', sans-serif;
