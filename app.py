@@ -58,13 +58,23 @@ html, body, [class*="css"] {
 /* Hide default streamlit elements */
 #MainMenu, footer, header { visibility: hidden; }
 
+/* Force sidebar always visible */
+[data-testid="stSidebar"] {
+    transform: none !important;
+    width: 300px !important;
+    min-width: 300px !important;
+}
+
 /* Fix sidebar toggle button - always visible */
-[data-testid="collapsedControl"] {
+[data-testid="collapsedControl"],
+[data-testid="stSidebarCollapsedControl"] {
     display: flex !important;
     visibility: visible !important;
+    opacity: 1 !important;
     color: white !important;
-    background: var(--surface2) !important;
+    background: #6c63ff !important;
     border-radius: 0 8px 8px 0 !important;
+    z-index: 999 !important;
 }
 
 /* Main heading */
