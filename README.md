@@ -1,13 +1,17 @@
+<div align="center">
+
 # 💳 CreditWise — ML Loan Approval System
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-FF4B4B?style=flat-square&logo=streamlit)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?style=flat-square&logo=scikit-learn)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://credit-risk-app-app-qnfzw2ntuscz6f2nvssjmv.streamlit.app)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 > An end-to-end Machine Learning web application that predicts loan approval eligibility with real-time probability scoring — built with Scikit-learn and deployed on Streamlit Cloud.
 
-🔗 **Live App:** [credit-risk-app-app-qnfzw2ntuscz6f2nvssjmv.streamlit.app](https://credit-risk-app-app-qnfzw2ntuscz6f2nvssjmv.streamlit.app)
+🔗 **[Live App](https://credit-risk-app-app-qnfzw2ntuscz6f2nvssjmv.streamlit.app)**
+
+</div>
 
 ---
 
@@ -162,10 +166,32 @@ plotly>=5.13.0
 
 ---
 
-## 👤 Author
+## 🔮 Future Improvements
 
-**Paramr amit**
-- GitHub: [@paramramit305-a11y](https://github.com/paramramit305-a11y)
+- [ ] Add XGBoost / Random Forest for improved accuracy
+- [ ] Integrate SHAP values for explainability
+- [ ] Add user authentication for personalized history
+- [ ] REST API with FastAPI for programmatic access
+- [ ] Deploy on AWS / GCP for production scale
 
 ---
 
+## 👤 Author
+
+<div align="center">
+
+**Parmar Amit**
+*BSc IT (AIML) | Gokul Global University*
+
+[![GitHub](https://img.shields.io/badge/GitHub-paramramit305--a11y-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/paramramit305-a11y)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Parmar%20Amit-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/parmar-amit-97941a377)
+
+</div>
+
+---
+
+<div align="center">
+
+⭐ If you find this project useful, please consider giving it a star!
+
+</div>
